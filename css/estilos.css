@@ -128,82 +128,93 @@ main .sobre-mi{
 .anterior{ 
     position: absolute;
     display: block;
-    width: 50px;
-    height: 52px;
+    width: 20px;
+    height: 22px;
     top: calc(50% - 35px);
     cursor: pointer;
-    line-height: 30px;
+    /*line-height: 30px;*/
     text-align: center;
     left: 0;
     z-index: 5;
+
+
+    
 }
 
 .siguiente{
     position: absolute;
     display: block;
-    width: 50px;
-    height: 52px;
+    width: 20px;
+    height: 22px;
     top: calc(50% - 35px);
     cursor: pointer;
-    line-height: 30px;
+    /*line-height: 30px;*/
     text-align: center;
     right: 0;
+ 
+}
+
+a{
+    text-decoration:none;
+    font-size: 15px;
+    font-weight: 300;
+    color:#fff;
+    padding:10px;
+    margin-bottom:20px;
 }
 
 .portafolio{
-    background: #f2f2f2;
+    background:#5d325b;
+    height:600px;
+    display:flex;
+    align-items:center;
+    color:#fff;
 }
-
-.imagen-port{
-
-    background-position: center;
-	/*background-attachment: contain;*/
-	/*background-size: cover;*/
-    margin-right: 10px;
-    overflow: hidden;
+.titulo1{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .imagen-port img{
-    height: 400px;  
+    width: 380px;
+    height:260px;
+    overflow: hidden;
+    border: 5px solid #fff;
 
 }
-.img1{
-    width:  300px;
-}
-.img2{
-    width:  200px;
-}
 
 
+/* Habilidades*/
 
-/*  Equipo*/
-
-.about-services{
+.habilidades{
     background: #fff;
     padding-bottom: 30px;
 }
 
 
-.servicio-cont{
+.habilidad-cont{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.servicio-ind{
+.habilidad-ind{
     width: 28%;
     text-align: center;
 }
 
-.servicio-ind img{
-    width: 90%;
+.habilidad-ind img{
+    width: 280px;
+    height:300px;
 }
 
-.servicio-ind h3{
+.habilidad-ind h3{
     margin: 10px 0;
 }
 
-.servicio-ind p{
+.habilidad-ind p{
     font-weight: 300;
     text-align: justify;
 }
@@ -253,13 +264,13 @@ footer{
         background-position: center;
     }
 
-    .contenedor-sobre-nosotros{
+    .contenedor-sobre-mi{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .sobre-nosotros .contenido-textos{
+    .sobre-mi .contenido-textos{
         width: 90%;
     }
 
@@ -291,21 +302,21 @@ footer{
 
     /* servicios */
 
-    .servicio-cont{
+    .habilidad-cont{
         justify-content: center;
         flex-direction: column;
     }
 
-    .servicio-ind{
+    .habilidad-ind{
         width: 100%;
         text-align: center;
     }
 
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+    .habilidad-ind:nth-child(1), .servicio-ind:nth-child(2){
         margin-bottom: 60px;
     }
 
-    .servicio-ind img{
+    .habilidad-ind img{
         width: 90%;
     }
 }
@@ -335,7 +346,7 @@ footer{
         width: 99%;
     }
 
-    .sobre-nosotros .contenido-textos{
+    .sobre-mi .contenido-textos{
         width: 95%;
     }
 
