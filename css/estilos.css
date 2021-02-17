@@ -151,31 +151,6 @@ position: absolute;
     background: none;
     border:none;
 }
-/*.anterior{ 
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 22px;
-    top: calc(50% - 35px);
-    cursor: pointer;
-    line-height: 30px;
-    text-align: center;
-    left: 0;
-    z-index: 5;    
-}*/
-
-/*.siguiente{
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 22px;
-    top: calc(50% - 35px);
-    cursor: pointer;
-    line-height: 30px;
-    text-align: center;
-    right: 0;
- 
-}*/
 
 a{
     text-decoration:none;
